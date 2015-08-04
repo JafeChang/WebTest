@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>hello</h1>
+	<hr>
+	<a href="FirstServlet?names=sclick">click here</a>
+	<form action="FirstServlet" method="post">
+		hey hey <input type="text" name="name" value="" /> yo yo <input
+			type="text" name="name" value="" /> <input type="submit"
+			value="submit" />
+	</form>
+	<form action="FirstServlet" method="post">
+		do the redirect?<br> yes <input type="radio" name="doRedirect"
+			value="yes"> &nbsp;&nbsp;&nbsp;no <input type="radio"
+			name="doRedirect" value="no"> <input type="submit"
+			value="submit" />
+	</form>
+	<table>
+		<tr>
+			<td>
+				<form method="post" action="Upload" enctype="multipart/form-data">
+					file name: <input type="text" id="filename" name="filename" /> <input
+						type="file" id="file" name="file" /> <input type="submit"
+						value="upload" /><br />
+
+				</form>
+			</td>
+		</tr>
+	</table>
+	<br/>
+	<a href="blockImages.jsp">random blocks</a>
+
+</body>
+</html>
